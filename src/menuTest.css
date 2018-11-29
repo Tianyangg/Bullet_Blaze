@@ -1,0 +1,8 @@
+.root{
+    -fx-background-color: #DEB887;
+}
+.button{
+    background: url("/slice02_02.png");
+    -fx-background-image: url("/slice02_02.png");
+    -fx-cursor: pointer;
+}

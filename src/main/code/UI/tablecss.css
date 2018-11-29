@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'FONT'; /*a name to be used later*/
+    src: url('res/Penumbra-HalfSerif-Std_35114.ttf') format('truetype'); /*URL to font*/
+}
+
+.root{
+    -fx-background-color: #DEB887;
+}
+.table-view{
+    -fx-background-color: #ab7b2d;
+    -fx-font-family: 'FONT';
+    -fx-background-radius: 4;
+    -fx-border-color: white;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+}
+
+.table-view:focused{
+    -fx-background-color: #ab7b2d;
+    -fx-font-family: 'FONT';
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #ab7b2d;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-style: italic;
+    -fx-border-width: 1px;
+    -fx-text-alignment: CENTER;
+}
+.table-view .table-cell{
+    -fx-text-fill: #ead5bb;
+    -fx-text-alignment: CENTER;
+}
+
+.table-view .column-header .label{
+    -fx-background-color: #8a5e20;
+    -fx-text-fill: white;
+    -fx-border-radius: 4px;
+    -fx-border-width: 0.5px;
+    -fx-text-alignment: CENTER;
+}
+
+.table-row-cell:even{
+
+    -fx-background-color: #ab8e1f;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill: #ead5bb;
+    -fx-border-width: 1px;
+    -fx-text-alignment: CENTER;
+
+}
+
+
+.table-view .scroll-bar{
+    -fx-background-color: #8a5e20;
+    -fx-text-fill: #8a5e20;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+}
+
+.button{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #6b481a 0%, #6b481a 100%),
+            #6b481a,
+            #6b481a,
+            radial-gradient(center 50% 50%, radius 100%, #8a5e20, rgba(146, 99, 31, 0.91));
+    /*-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );*/
+    -fx-font-weight: bold;
+
+    -fx-font-size: 30px;
+    -fx-text-fill: #ead5bb;
+}
+
+.button:hover {
+    -fx-background-color: #6b481a;
+}
+.text-field{
+    -fx-background-color: rgba(107, 72, 26, 0.58);
+    -fx-stroke: #6b481a;
+}
+
+.text{
+
+}
+
+#fancytext {
+    -fx-font: 30px Tahoma;
+    -fx-fill: #6b481a;/*linear-gradient(from 0% 0% to 100% 200%, repeat, #6b3d14 0%, #ab8e1f 50%);*/
+    -fx-stroke: #6b481a;
+    -fx-stroke-width: 1;
+}
+
+#fancytext2 {
+    -fx-font: 20px Tahoma;
+    -fx-fill: #6b481a; /*linear-gradient(from 0% 0% to 100% 200%, repeat, #6b3d14 0%, #ab8e1f 50%);*/
+    -fx-stroke: #6b481a;
+    -fx-stroke-width: 1;
+}
+
+#alertText {
+    -fx-font: 20px Tahoma;
+    -fx-fill: #7b1405; /*linear-gradient(from 0% 0% to 100% 200%, repeat, #6b3d14 0%, #ab8e1f 50%);*/
+    -fx-stroke: #7b1405;
+    -fx-stroke-width: 1;
+}
+
+#optionButton {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #6b481a 0%, #6b481a 100%),
+            #6b481a,
+            #6b481a,
+            radial-gradient(center 50% 50%, radius 100%, #8a5e20, rgba(146, 99, 31, 0.91));
+    /*-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );*/
+    -fx-font-weight: bold;
+
+    -fx-font-size: 15px;
+    -fx-text-fill: #ead5bb;
+}
+
+.slider .track {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, #8a5e20, rgba(146, 99, 31, 0.91));
+    -fx-border-color: #ab7b2d;
+    -fx-border-radius: 3px;
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+.slider .thumb {
+    -fx-background-color: #6b3d14;
+}
+
+.slider .tickmarks{
+    -fx-text-fill: WHITE;
+}
+
+.slider. ticklabel{
+    -fx-text-fill: #ead5bb;
+}
+
